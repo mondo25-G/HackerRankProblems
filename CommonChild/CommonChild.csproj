@@ -50,11 +50,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\LeetcodeProblems\PrintClassLibrary\PrintClassLibrary.csproj">
-      <Project>{6b956e63-e078-44c7-a5d7-7dfdc7ba3727}</Project>
-      <Name>PrintClassLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

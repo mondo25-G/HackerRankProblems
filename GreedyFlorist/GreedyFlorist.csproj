@@ -51,8 +51,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\LeetcodeProblems\PrintClassLibrary\PrintClassLibrary.csproj">
-      <Project>{6b956e63-e078-44c7-a5d7-7dfdc7ba3727}</Project>
+    <ProjectReference Include="..\PrintClassLibrary\PrintClassLibrary.csproj">
+      <Project>{837820d1-27d0-48b8-9343-e9a363174d13}</Project>
       <Name>PrintClassLibrary</Name>
     </ProjectReference>
   </ItemGroup>

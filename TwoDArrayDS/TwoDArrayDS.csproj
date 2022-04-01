@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F52BD303-F9B3-43BA-9F91-3A46B10A7C99}</ProjectGuid>
+    <ProjectGuid>{645A2E4D-9B6E-4702-8FCE-FE178A9D67F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Pairs</RootNamespace>
-    <AssemblyName>Pairs</AssemblyName>
+    <RootNamespace>TwoDArrayDS</RootNamespace>
+    <AssemblyName>TwoDArrayDS</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

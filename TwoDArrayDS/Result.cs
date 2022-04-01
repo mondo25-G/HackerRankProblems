@@ -5,11 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using PrintClassLibrary;
 
-namespace _2DArrayDS
+namespace TwoDArrayDS
 {
     class Result
     {
-
         public Result(bool debug)
         {
             Testcases(debug);
@@ -20,8 +19,8 @@ namespace _2DArrayDS
             var input = new List<List<int>> { new List<int>{ 1, 1, 1, 0, 0, 0 }, new List<int>{0,1,0,0,0,0 }, new List<int>{ 1, 1, 1, 0, 0, 0 },
                 new List<int>{0,0,2,4,4,0 }, new List<int>{0,0,0,2,0,0 }, new List<int>{0,0,1,2,4,0 } };
             var result = HourglassSum(input);
-            Debug.PrintForDebug($"Maximum hourglass sum is {result}\n",debug);
-            var newResult = HourglassSumOptimal(input,debug);
+            Debug.PrintForDebug($"Maximum hourglass sum is {result}\n", debug);
+            var newResult = HourglassSumOptimal(input, debug);
             Debug.PrintForDebug($"Maximum hourglass sum is {newResult}\n", debug);
         }
 
@@ -94,7 +93,7 @@ namespace _2DArrayDS
         //Optimal. O(16) time, O(1) space
         //This can be done in one loop if you notice which elements you actually need from the 6X6 array.
         //Keep eye on symmetries and / % operations.
-        private static int HourglassSumOptimal(List<List<int>> array,bool debug)
+        private static int HourglassSumOptimal(List<List<int>> array, bool debug)
         {
             int max = -63;
             int temp;

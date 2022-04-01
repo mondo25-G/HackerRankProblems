@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("2DArrayDS")]
+[assembly: AssemblyTitle("TwoDArrayDS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("2DArrayDS")]
+[assembly: AssemblyProduct("TwoDArrayDS")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0acb3f77-c14e-44b9-8855-19d67fd85650")]
+[assembly: Guid("645a2e4d-9b6e-4702-8fce-fe178a9d67f9")]
 
 // Version information for an assembly consists of the following four values:
 //
